@@ -1,12 +1,10 @@
 import React from 'react';
 
-// Importando a imagem da pasta assets
 import bannerSobre from '../assets/sobre.jpg';
 
 export const Sobre = () => {
   return (
     <main>
-      {/* Agora usamos a variável bannerSobre que importamos acima */}
       <img src={bannerSobre} alt="Banner Sobre Nós" className="banner-topo" />
       
       <section className="about-section">

@@ -1,20 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// Importando a arte dos animais (verifique se o nome é inicio.jpg ou logo.jpg)
 import bannerArte from '../assets/inicio.jpg'; 
 
 export const Home = () => {
   return (
     <main>
-      {/* Banner de Impacto (Collage de Animais) */}
       <img 
         src={bannerArte} 
         alt="Arca Viva - Especialista em Animais" 
         className="banner-topo" 
       />
 
-      {/* Seção Principal de Boas-vindas */}
       <section className="about-section" style={{ textAlign: 'center' }}>
         <h1 style={{ fontSize: '2.5rem', letterSpacing: '2px' }}>
           Protegendo o Futuro da Biodiversidade

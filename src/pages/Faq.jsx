@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Importando o banner da pasta assets conforme a nova estrutura
 import bannerFaq from '../assets/faq.jpg';
 
 export const Faq = () => {
@@ -74,7 +73,6 @@ export const Faq = () => {
 
   return (
     <main>
-      {/* Usando a variável importada para o banner */}
       <img src={bannerFaq} alt="Banner FAQ" className="banner-topo" />
       
       <section className="faq-section">

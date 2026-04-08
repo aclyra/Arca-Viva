@@ -1,7 +1,6 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logoImg from '../assets/logo navbar.jpg'; // Verifique se o nome é esse
+import logoImg from '../assets/logo navbar.jpg';
 
 export const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
