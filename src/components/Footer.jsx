@@ -6,7 +6,7 @@ export const Footer = () => {
     <>
       <section className="info-bar">
         <div className="social-container info-column">
-          <a href="/" className="logo-link-footer" aria-label="Página Inicial">
+          <a href="/Arca-Viva/" className="logo-link-footer" aria-label="Página Inicial">
             <img src={logoImg} alt="Ícone Arca Viva" />
           </a>
           <div className="social-links">

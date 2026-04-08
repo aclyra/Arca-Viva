@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <header className="header-principal">
       <nav className="nav-container">
-        <Link className="logo" to="/">
+        <Link className="logo" to="/Arca-Viva/">
           <img src={logoImg} alt="Ícone Arca Viva" />
           <span className="logo-text">ARCA VIVA</span>
         </Link>
