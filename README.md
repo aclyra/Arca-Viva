@@ -58,6 +58,6 @@ O nome é uma referência direta à Arca de Noé — mas desta vez, a proposta �
 | JavaScript | ES2024 | Sem TypeScript |
 
 **Fontes (Google Fonts):** Playfair Display · Cormorant Garamond · DM Sans
-**Arca Viva** · Fauna Silvestre Brasileira · 2025
+**Arca Viva** · Fauna Silvestre Brasileira · 2026
 
 </div>
