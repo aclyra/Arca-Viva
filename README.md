@@ -35,15 +35,38 @@ O **Arca Viva** é uma plataforma front-end de monitoramento de risco para fauna
 
 O nome é uma referência direta à Arca de Noé — mas desta vez, a proposta é monitorar antes que seja tarde.
 
-### Funcionalidades da versão atual
+## Funcionalidades da versão atual
 
-- Hero section com silhuetas animadas de fauna brasileira e efeito de parallax no scroll
-- Dashboard de risco com bolhas interativas por categoria IUCN
-- Barras de progresso e tabela de resumo com dados mockados
-- Navbar com glassmorphism ao rolar a página e menu mobile
-- Footer com informações de contato e links de navegação
-- Animações de entrada por scroll via `IntersectionObserver`
-- Layout totalmente responsivo
+- Hero section com silhuetas animadas de fauna brasileira e efeito de parallax no scroll  
+- Dashboard de risco com bolhas interativas por categoria IUCN  
+- Barras de progresso e tabela de resumo  
+- Navbar com glassmorphism e menu mobile  
+- Footer com informações e navegação  
+- Animações via `IntersectionObserver`  
+- Layout totalmente responsivo  
+- Integração com banco de dados em tempo real  
+
+---
+
+## Banco de Dados (Supabase)
+
+A aplicação já está integrada com o **Supabase**, funcionando como backend-as-a-service para armazenamento e consulta de dados.
+
+### Status da Integração
+
+- ✅ Banco de dados conectado e operacional  
+- ✅ Comunicação com o frontend funcionando corretamente  
+- ✅ Queries sendo executadas com sucesso  
+- ✅ Estrutura pronta para dados reais (substituindo mocks)  
+
+### Estrutura e Uso
+
+O Supabase é utilizado para:
+
+- Armazenamento de espécies da fauna brasileira  
+- Classificações de risco baseadas na IUCN  
+- Dados para alimentar o dashboard em tempo real  
+- Possível expansão para autenticação e APIs futuras  
 
 ---
 
@@ -56,6 +79,7 @@ O nome é uma referência direta à Arca de Noé — mas desta vez, a proposta �
 | [Tailwind CSS](https://tailwindcss.com/) | 3 | Estilização utilitária |
 | [react-router-dom](https://reactrouter.com/) | 6 | Navegação client-side |
 | JavaScript | ES2024 | Sem TypeScript |
+| Supabase | Latest | Backend e banco de dados |
 
 **Fontes (Google Fonts):** Playfair Display · Cormorant Garamond · DM Sans
 **Arca Viva** · Fauna Silvestre Brasileira · 2026
