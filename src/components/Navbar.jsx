@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { supabase } from '../lib/supabase';
 import logoImg from '../assets/logo navbar.jpg';
 
-export const Navbar = () => {
+export const Navbar = ({ session }) => {
   const [isActive, setIsActive] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLogout = async () => {
+    await supabase.auth.signOut();
+    navigate('/'); 
+  };
 
   return (
     <header className="header-principal">
@@ -25,6 +32,23 @@ export const Navbar = () => {
           <li><Link to="/analise">Análise</Link></li>
           <li><Link to="/contato">Contato</Link></li>
           <li><Link to="/faq">FAQ</Link></li>
+          
+          {session ? (
+            <li>
+              <button 
+                onClick={handleLogout} 
+                style={{ background: 'none', border: 'none', color: 'inherit', cursor: 'pointer', font: 'inherit', fontWeight: 'bold' }}
+              >
+                Sair
+              </button>
+            </li>
+          ) : (
+            <li>
+              <Link to="/login" style={{ fontWeight: 'bold', border: '1px solid currentColor', padding: '4px 8px', borderRadius: '4px' }}>
+                Login
+              </Link>
+            </li>
+          )}
         </ul>
       </nav>
     </header>
