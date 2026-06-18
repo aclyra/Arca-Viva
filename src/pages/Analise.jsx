@@ -1,3 +1,4 @@
+// Autoria da Documentação e Comentários: Ana Clara (https://github.com/aclyra)
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { calcularRiscoExtincao } from '../utils/analiseLogic'; // Importa a lógica matemática do cálculo de risco
