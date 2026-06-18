@@ -1,3 +1,4 @@
+// Autoria da Documentação e Comentários: Ana Clara (https://github.com/aclyra)
 import React, { useState, useEffect } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { supabase } from './lib/supabase';
