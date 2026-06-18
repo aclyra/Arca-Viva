@@ -1,3 +1,4 @@
+// Autoria da Documentação e Comentários: Ana Clara (https://github.com/aclyra)
 // Importação do StrictMode do React, ferramenta que ajuda a identificar problemas potenciais no código durante o desenvolvimento
 import { StrictMode } from 'react'
 
